@@ -1,7 +1,7 @@
 #Ejercicios Alumnos
 
-nombre = input("¿Cual es tu nombre?:")
-sexo = input("¿Cual es tu sexo (M para mujer y H para hombre)")
+nombre = input("¿Cual es tu nombre?:").strip()
+sexo = input("¿Cual es tu sexo (M para mujer y H para hombre)").strip().upper()
 
 primera_letra = nombre[0].upper()
 
